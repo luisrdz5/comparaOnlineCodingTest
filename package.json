@@ -1,0 +1,25 @@
+{
+  "name": "comparaonlinecodetest",
+  "version": "0.0.1",
+  "description": "its a simple products API",
+  "main": "server.js",
+  "scripts": {
+    "after-30-days": "node ./src/server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrdz5/comparaOnlineCodingTest.git"
+  },
+  "keywords": [
+    "financial",
+    "products"
+  ],
+  "author": "Luis Antonio Rodriguez Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisrdz5/comparaOnlineCodingTest/issues"
+  },
+  "homepage": "https://github.com/luisrdz5/comparaOnlineCodingTest#readme",
+  "dependencies": {}
+}
