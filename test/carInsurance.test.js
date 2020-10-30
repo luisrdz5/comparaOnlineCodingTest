@@ -11,8 +11,6 @@ describe("carInsuranse Tests", function() {
             expect(products[0].name).equal("foo");
           });
 
-        // debemos validar que el producto tenga nombre , precio, y caducidad
-        //debemos validar que el nombre sea string y debemos validar que el precio y la caducidad sean numeros
     })
 
     describe("Once the sell by date has passed, price degrades twice as fast" , () => { 
