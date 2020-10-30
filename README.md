@@ -50,7 +50,7 @@ npm run test
 
 This is the test report 
 
-![testReport](https://raw.githubusercontent.com/luisrdz5/comparaOnlineCodingTest/main/testReport/testReport.png)
+![testReport](https://raw.githubusercontent.com/luisrdz5/comparaOnlineCodingTest/main/testReport/testReport.PNG)
 
 ## Built With
 
