@@ -46,6 +46,12 @@ npm run after-30-days
 npm run test
 ```
 
+## Test Report
+
+This is the test report 
+
+![testReport](https://raw.githubusercontent.com/luisrdz5/comparaOnlineCodingTest/main/testReport/testReport.png)
+
 ## Built With
 
 * [chai](https://www.npmjs.com/package/chai) - Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
