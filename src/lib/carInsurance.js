@@ -10,7 +10,7 @@ class CarInsurance {
                     this.fullCoverageprice(product);
                     break;
                 case 'Mega Coverage':
-                    product.sellIn++;
+                    this.megaCoverageprice(product)
                     break;
                 case 'Special Full Coverage':
                     this.specialFullCoveragePrice(product);
@@ -32,7 +32,10 @@ class CarInsurance {
         }
         if(product.price+increase <= 50){
             product.price=product.price+increase;
+        }else {
+            product.price=50
         }
+
     }
     specialFullCoveragePrice(product){
         let increase=1;
@@ -67,6 +70,13 @@ class CarInsurance {
         }else {
             product.price=0;
         }
+        if(product.price>50){
+            product.price=50
+        }
+    }
+    megaCoverageprice(product){
+        product.sellIn++;
+        product.price=80;
     }
 }
 
