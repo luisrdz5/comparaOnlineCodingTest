@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "after-30-days": "node ./src/server.js",
-    "test": "mocha --exit",
-    "cover": "nyc npm run test",
+    "test": "nyc mocha --exit",
     "report": "nyc report --reporter=html && open coverage/index.html"
   },
   "repository": {
