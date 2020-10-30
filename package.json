@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "after-30-days": "node ./src/server.js",
-    "test": "test"
+    "test": "mocha --exit",
+    "cover": "nyc npm run test",
+    "report": "nyc report --reporter=html && open coverage/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,14 @@
     "url": "https://github.com/luisrdz5/comparaOnlineCodingTest/issues"
   },
   "homepage": "https://github.com/luisrdz5/comparaOnlineCodingTest#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "all": true,
+    "include": ["src/lib"]
+  }
 }
